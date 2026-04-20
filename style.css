@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    align-items: center;
+    padding: 1px 0px;
+}
+
+.logo{
+    background-color: orangered;
+    width: 40px;
+    height:40px ;
+    font-weight: bold;
+    padding: 2 px 2px;
+
+}
+.button{
+    background-color: grey;
+    border: none;
+    padding: 8px 1px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+main{
+    display: flex;
+flex-direction: column;
+gap: 3px;
+}
+.main-container{
+    display: flex;
+   
+    flex-direction: column;
+}
+.main-top{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.main-top-content,
+.main-img{
+flex: 1;
+}
+
+.main-top-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.main-top-content h1 {
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 0.9;
+}
+.main-top-content p{
+    color:grey ;
+}
+.main-button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+
+}
+.main-button button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 8px 1px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-top-content span{
+    font-weight: bold;
+    color: gray;
+
+}
+.main-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.main-center{
+    display: flex;
+    justify-content: space-between ;
+    width:60%;
+    height: 40%;
+}
+.center-3{
+    padding: 20px;
+
+width:150px;
+margin-left: 30px;
+}
+.center-2{
+    width: 100%;
+    height: 100%;
+   
+    margin-left: 20px;
+    border-radius: 40px;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1024px;
+    margin: o auto;
+    padding: 0 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.features{
+    display: flex;
+    align-items: stretch;
+    gap: 3rem;
+}
+.feat h2{
+    text-transform: capitalize;
+}
+.feat-icon{
+    background-color: orangered;
+   width: 40px;
+   height: 40px;
+   border-radius: 10px;
+}
+footer{
+    text-align: center;
+color: #666;
+padding: 1px;
+}
